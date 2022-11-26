@@ -1,0 +1,62 @@
+.sideMenu_container {
+
+    width: 20%;
+    height: 130%;
+    border-radius: 20px 0 0 0;
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_container {
+    padding: 20px 20px 0 20px;
+    font-size: 60px;
+    color: brown;
+    height: fit-content;
+    margin: 0 auto
+}
+
+
+.side_menu_options {
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid teal;*/
+}
+
+.side_menu_options h3 {
+    color: brown;
+    font-size: 17px;
+
+    width: min-content;
+    margin: 20px 0 0 50px;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    /*border: 1px solid khaki;*/
+    margin: 20px 0 0 50px;
+    font-size: 16px;
+}
+
+.option h4 {
+    /*border: 1px solid khaki;*/
+    margin: 3px 0 0px 10px;
+    color: gray;
+}
+
+.icons {
+    height: 50%;
+    width: min-content;
+    background: gray;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.icons:hover {
+    background-color: slateblue;
+}
+
+.option h4:hover {
+    color: white;
+}

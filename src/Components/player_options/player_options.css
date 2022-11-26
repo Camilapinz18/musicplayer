@@ -1,0 +1,40 @@
+.player_options_container {
+    background: var(--main);
+    border-radius: 0 0 20px 20px;
+    height: 40%;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.album_info {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+
+}
+
+.album_info img {
+    width: 30%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 8px 0 0 35px;
+}
+
+.album_info_text {
+    display: flex;
+    flex-direction: column;
+
+    height: fit-content;
+    margin: 15px auto;
+}
+
+.album_info_text h2 {
+    font-size: 20px;
+}
+
+.album_info_text h4 {
+    font-size: 15px;
+    color: rgb(173, 173, 173);
+}
